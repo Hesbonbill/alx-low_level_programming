@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - Prints Holberton as a message.
@@ -13,8 +14,8 @@ int main(void)
 	sz = sizeof(str) / sizeof(int);
 	for (count = 0; count < sz; count++)
 	{
-		_putchar(str[count]);
+		putchar (str[count]);
 	}
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }
